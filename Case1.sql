@@ -154,12 +154,4 @@ from client;
   select Qty +10
   from client                  /* select qty <10 ,  add 10 to qty in result, not change in table */
   where Qty < 10;
-  
-  /*f) Delete records with part_no equal to 879, 654, 231 and 23*/
-  
-delete 
-from client
-where Part_no = 879, Part_no = 654, Part_no = 231, Part_no = 23;
-
-/* g) Add a field “Date_purchase” to record the date of purchase*/
-/*DUE 6- E F G*/
+ 
